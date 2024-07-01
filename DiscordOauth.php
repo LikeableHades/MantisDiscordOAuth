@@ -10,7 +10,7 @@ class DiscordOauthPlugin extends MantisPlugin {
 		$this->description = 'Allows users to sign into MantisBT using their Discord account.';
 		$this->page        = 'config';
 
-		$this->version  = '2.1';
+		$this->version  = '1.0.0';
 		$this->requires = array(
 			'MantisCore' => '2.0.0',
 		);
